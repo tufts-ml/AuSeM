@@ -1,0 +1,2 @@
+# AuSeM
+Automating Sensemaking Measurements
