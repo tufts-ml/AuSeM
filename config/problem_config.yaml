@@ -1,0 +1,175 @@
+# Configuration for problem domains
+num_domains: 8
+
+criteria_to_head_mapping:
+  -
+    - 0
+    - 3
+    - 4
+    - 4
+    - 4
+    - 6
+    - 6
+  -
+    - 0
+    - 0
+    - 1
+    - 1
+    - 3
+    - 3
+    - 4
+    - 4
+    - 5
+    - 5
+    - 7
+  -
+    - 0
+    - 0
+    - 0
+    - 3
+    - 3
+    - 4
+    - 4
+    - 4
+    - 5
+    - 5
+    - 7
+  - 
+    - 0
+    - 1
+    - 2
+    - 3
+    - 3
+    - 4
+    - 4
+    - 5
+    - 7
+
+
+problems:
+  - name: Problem1
+    text: Which plot best represents the acceleration curve associated with the displacement and velocity curves shown here? 
+    total_criteria: 7
+    domains:
+      - name: Objects
+        num_criteria: 1
+      - name: Influences
+        num_criteria: 0
+      - name: Properties
+        num_criteria: 0
+      - name: Positioning
+        num_criteria: 1
+      - name: Movements
+        num_criteria: 3
+      - name: Interactions
+        num_criteria: 0
+      - name: Descriptive Relationships
+        num_criteria: 2
+      - name: Mechanistic Relationships
+        num_criteria: 0
+    questions:
+      - "Does the student identify the object (object, car, etc.)?"
+      - "Does the student identify the orientation (e.g. left or right)?"
+      - "Does the student identify movement 1 (e.g. slow down)?"
+      - "Does the student identify movement 2 (e.g. zero)?"
+      - "Does the student identify movement 3 (e.g. speed up)?"
+      - "Does the student identify the relationship (e.g position changes is a pos/neg velocity)?"
+      - "Does the student identify the relationship (e.g velocity changes is a pos/neg acceleration)?"
+  - name: Problem2
+    text: A physics demo launches a ball horizontally while dropping a second ball vertically at exactly the same time. 
+    total_criteria: 11
+    domains:
+      - name: Objects
+        num_criteria: 2
+      - name: Influences
+        num_criteria: 2
+      - name: Properties
+        num_criteria: 0
+      - name: Positioning
+        num_criteria: 2
+      - name: Movements
+        num_criteria: 2
+      - name: Interactions
+        num_criteria: 2
+      - name: Descriptive Relationships
+        num_criteria: 0
+      - name: Mechanistic Relationships
+        num_criteria: 1
+    questions:
+      - "Does the student identify object 1 (e.g. ball 1)?"
+      - "Does the student identify object 2 (e.g. ball 2)?"
+      - "Does the student identify the possible environmental influences on object 1 (e.g. gravity)?"
+      - "Does the student identify the possible environmental influences on object 2 (e.g. gravity)?"
+      - "Does the student identify object 1 positioning (e.g. down)?"
+      - "Does the student identify object 2 positioning (e.g. horizontal up)?"
+      - "Does the student identify object 1 motion (e.g. speeding up)?"
+      - "Does the student identify object 2 motion (e.g. speeding up)?"
+      - "Does the student identify the interaction between object 1 and gravity (e.g. gravitational force)?"
+      - "Does the student identify the interaction between object 2 and gravity (e.g. gravitational force)?"
+      - "Does the student identify the mechanistic relationship between gravity and a change in motion (e.g. Earth's gravitational force is a mechanism that causes the object to move down at a constantly increasing speed)?"
+  - name: Problem3
+    text: A girls hands on a moving sidewalk (convert belt) that is moving to the right at a speed of 2 m/s relative to the ground. A dog runs on the belt toward the girl at a sped of 8 m/s/ relative to the belt. What is the speed of the god relative to the girl?
+    total_criteria: 11
+    domains:
+      - name: Objects
+        num_criteria: 3
+      - name: Influences
+        num_criteria: 0
+      - name: Properties
+        num_criteria: 0
+      - name: Positioning
+        num_criteria: 2
+      - name: Movements
+        num_criteria: 3
+      - name: Interactions
+        num_criteria: 2
+      - name: Descriptive Relationships
+        num_criteria: 0
+      - name: Mechanistic Relationships
+        num_criteria: 1
+    questions:
+      - "Does the student identify object 1 (e.g. girl)?"
+      - "Does the student identify object 1 (e.g. dog)?"
+      - "Does the student identify object 1 (e.g. moving sidewalk, conveyor belt)?"
+      - "Does the student identify the positioning of the dog (e.g. left)?"
+      - "Does the student identify the positioning of the belt (e.g. right)?"
+      - "Does the student identify the movement of the girl (e.g. at rest)?"
+      - "Does the student identify the movement of the dog (e.g. 8m/s constant speed)?"
+      - "Does the student identify the movement of the belt (e.g. 2 m/s constant speed)?"
+      - "Does the student identify the interaction between the girl and the belt (e.g. moving her to the right)?"
+      - "Does the student identify the interaction between the dog and the belt (e.g moving the dog to the right)?"
+      - "Does the student identify the mechanistic relationship between motion of the observer and motion of the observed? (e.g. the speed of the observer relative to the observed object in motion causes the observed motion)"
+  - name: Problem4
+    text: The net force on the box is in the positive x direction. Which of the following statements best describes the motion of the box?
+    total_criteria: 9
+    domains:
+      - name: Objects
+        num_criteria: 1
+      - name: Influences
+        num_criteria: 1
+      - name: Properties
+        num_criteria: 1
+      - name: Positioning
+        num_criteria: 2
+      - name: Movements
+        num_criteria: 2
+      - name: Interactions
+        num_criteria: 1
+      - name: Descriptive Relationships
+        num_criteria: 0
+      - name: Mechanistic Relationships
+        num_criteria: 1
+    questions:
+      - "Does the student identify the object (e.g. object, box, etc.)?"
+      - "Does the student identify the possible environmental influence acting on the object (e.g. applied net force)?"
+      - "Does the student identify the object properties (e.g. mass)?"
+      - "Does the student identify the object positioning before applied force (e.g. upwards)?"
+      - "Does the student identify the object positioning after applied force (e.g. horizontal)?"
+      - "Does the student identify the object movement prior to the applied force (e.g. constant velocity)?"
+      - "Does the student identify the object movement after the applied force (e.g. final velocity)?"
+      - "Does the student identify the interaction between the object and the net applied force (e.g. change in direction)?"
+      - "Does the student identify the mechanistic relationship between an applied net force and a change in motion? (e.g. a net force applied in the x direction will be a mechanism that causes a change in motion/acceleration in the x direction)"
+
+# To index problems and domains in Python, you can use:
+# config['problems'][index] for problems
+# config['problems'][index]['domains'][index] for domains within a problem

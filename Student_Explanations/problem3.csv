@@ -1,4 +1,4 @@
-correct,student_id,,Uncertainty ,Feature Vectors,Other Strategy,Time 
+correct,student_id,Text,Uncertainty ,Feature Vectors,Other Strategy,Time 
 TRUE,Student 31,"If the belt (and thus the girl) is moving 2m/s in the positive direction relative to the ground and the dog is moving 6m/s in the negative direction relative to the ground, the girl and the distance between the girl and the dog is decreasing at the are of the sum of the speeds of the girl and the dog. And thus, the dog is moving at a speed of 6m/s + 2m/s = 8m/s relative to the girl.",2,"(1,1,1,1,1,1,1,1,0,0,0)",1,27:32
 TRUE,Student 47,"The girl is simply standing on the conveyor belt, she is not moving. Therefore, her speed is 0m/s, and the speed of the dog relative to the girl is the same as the speed of the dog relative to the belt.",2,"(1,1,1,0,0,1,1,0,1,0,0)",0,54:20
 TRUE,Student 29,"The dog is moving at a speed of 8 relative to the girl, because it is moving at a speed of 8 relative to belt, which is moving at the same speed as the girl.",2,"(1,1,1,0,0,1,1,1,0,0,0)",0,24:23
